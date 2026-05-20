@@ -32,5 +32,8 @@ btn.addEventListener("click", async () => {
 	const lat = data.location.lat;
 	const lng = data.location.lng;
 
+	map.setView([lat, lng], 13);
+	marker.setLatLng([lat, lng]);
+
 	console.log(data);
 });

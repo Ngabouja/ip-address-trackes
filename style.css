@@ -93,5 +93,6 @@ button:hover {
 }
 
 #map {
-	height: 480px;
+	height: 510px;
+	z-index: -1;
 }
