@@ -6,6 +6,8 @@
 	box-sizing: border-box;
 	font-family: "Rubik", sans-serif;
 }
+body {
+}
 
 header {
 	background-image: url("ville.svg");
@@ -16,12 +18,6 @@ header {
 	padding: 2rem;
 	height: 30vh;
 	background-color: #4d53b3;
-}
-
-#map {
-	width: 100%;
-	height: 100vh;
-	z-index: 0;
 }
 
 h1 {
@@ -91,4 +87,11 @@ span {
 	font-size: 26px;
 	line-height: 30px;
 	color: #2c2c2c;
+}
+button:hover {
+	cursor: pointer;
+}
+
+#map {
+	height: 480px;
 }
